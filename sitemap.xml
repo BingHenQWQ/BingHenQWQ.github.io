@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://boke.sanliang.shop/box/animation/index.html</loc>
+    
+    <lastmod>2023-11-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boke.sanliang.shop/posts/%E5%85%AB%E5%93%A5%E4%B8%93%E5%8C%BA.html</loc>
+    
+    <lastmod>2023-11-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boke.sanliang.shop/box/gallery/nsh.html</loc>
     
     <lastmod>2023-11-24</lastmod>
@@ -75,15 +93,6 @@
   
   <url>
     <loc>https://boke.sanliang.shop/tags/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boke.sanliang.shop/box/animation/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -236,10 +245,31 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://boke.sanliang.shop/tags/NSH/</loc>
+    <lastmod>2023-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boke.sanliang.shop/tags/%E9%80%86%E6%B0%B4%E5%AF%92/</loc>
+    <lastmod>2023-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://boke.sanliang.shop/categories/%E5%85%89%E9%81%87%E6%B5%8B%E8%AF%95%E6%9C%8D%E5%B0%8F%E7%AA%9D/</loc>
+    <lastmod>2023-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boke.sanliang.shop/categories/%E9%80%86%E6%B0%B4%E5%AF%92%E7%BB%93%E4%B9%89/</loc>
     <lastmod>2023-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
