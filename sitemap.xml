@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://boke.sanliang.shop/personal/yh/yihan.html</loc>
+    
+    <lastmod>2024-01-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boke.sanliang.shop/personal/yh/index.html</loc>
+    
+    <lastmod>2024-01-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boke.sanliang.shop/box/gallery/jieyiSKY.html</loc>
     
     <lastmod>2023-11-25</lastmod>
@@ -39,24 +57,6 @@
   
   <url>
     <loc>https://boke.sanliang.shop/box/gallery/nsh.html</loc>
-    
-    <lastmod>2023-11-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boke.sanliang.shop/personal/yh/index.html</loc>
-    
-    <lastmod>2023-11-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boke.sanliang.shop/personal/yh/yihan.html</loc>
     
     <lastmod>2023-11-24</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://boke.sanliang.shop/personal/bb/index.html</loc>
+    <loc>https://boke.sanliang.shop/life/games/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -164,15 +164,6 @@
   </url>
   
   <url>
-    <loc>https://boke.sanliang.shop/life/games/index.html</loc>
-    
-    <lastmod>2023-03-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://boke.sanliang.shop/life/music/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
@@ -182,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://boke.sanliang.shop/social/link/index.html</loc>
+    <loc>https://boke.sanliang.shop/personal/bb/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -192,6 +183,15 @@
   
   <url>
     <loc>https://boke.sanliang.shop/social/fcircle/index.html</loc>
+    
+    <lastmod>2023-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boke.sanliang.shop/social/link/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -211,7 +211,7 @@
 
   <url>
     <loc>https://boke.sanliang.shop/</loc>
-    <lastmod>2023-12-06</lastmod>
+    <lastmod>2024-01-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -219,42 +219,42 @@
   
   <url>
     <loc>https://boke.sanliang.shop/tags/SKY/</loc>
-    <lastmod>2023-12-06</lastmod>
+    <lastmod>2024-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boke.sanliang.shop/tags/SKY-Beta/</loc>
-    <lastmod>2023-12-06</lastmod>
+    <lastmod>2024-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boke.sanliang.shop/tags/%E5%85%89%E9%81%87/</loc>
-    <lastmod>2023-12-06</lastmod>
+    <lastmod>2024-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boke.sanliang.shop/tags/%E5%85%89%E9%81%87%E6%B5%8B%E8%AF%95%E6%9C%8D/</loc>
-    <lastmod>2023-12-06</lastmod>
+    <lastmod>2024-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boke.sanliang.shop/tags/NSH/</loc>
-    <lastmod>2023-12-06</lastmod>
+    <lastmod>2024-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boke.sanliang.shop/tags/%E9%80%86%E6%B0%B4%E5%AF%92/</loc>
-    <lastmod>2023-12-06</lastmod>
+    <lastmod>2024-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -263,14 +263,14 @@
   
   <url>
     <loc>https://boke.sanliang.shop/categories/%E5%85%89%E9%81%87%E6%B5%8B%E8%AF%95%E6%9C%8D%E5%B0%8F%E7%AA%9D/</loc>
-    <lastmod>2023-12-06</lastmod>
+    <lastmod>2024-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boke.sanliang.shop/categories/%E9%80%86%E6%B0%B4%E5%AF%92%E7%BB%93%E4%B9%89/</loc>
-    <lastmod>2023-12-06</lastmod>
+    <lastmod>2024-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
