@@ -17,6 +17,27 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Html5基础</title>
+    <link href="https://www.sanliang.xyz/posts/Html5%E5%9F%BA%E7%A1%80.html"/>
+    <id>https://www.sanliang.xyz/posts/Html5%E5%9F%BA%E7%A1%80.html</id>
+    <published>2024-04-09T16:37:00.000Z</published>
+    <updated>2024-04-09T16:37:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1>Html5</h1><h2 id="1、基础">1、基础</h2><p>input    //输入栏</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">type                        //功能</span><br><span class="line">value                       //标签-一些元素的实际内容写在这里面</span><br><span class="line">select                      //下拉列表</span><br><span class="line">option                      //单选选项-用于下拉列表内</span><br><span class="line">te</span><br></pre></td></tr></table></figure><blockquote><p>元素</p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">type---</span><br><span class="line">text                        //只能用数字，字母以及下划线组合</span><br><span class="line">password                    //密码位数不能低于8位，使用两次代表确认密码</span><br><span class="line">date                        //时间-精确到年月日</span><br><span class="line">date                        //时间-精确到年月日时分</span><br><span class="line">radio                       //单选按钮</span><br><span class="line">checkbox                    //多选按钮</span><br><span class="line">submit                      //提交-用于登录按钮或者确认</span><br><span class="line">reset                       //重置-用于重置按钮</span><br><span class="line">email                       //邮箱</span><br><span class="line">url                         //网址</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">前端</summary>
+    
+    
+    
+    <category term="计算机语言" scheme="https://www.sanliang.xyz/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="Html5" scheme="https://www.sanliang.xyz/tags/Html5/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Linux基础操作指令</title>
     <link href="https://www.sanliang.xyz/posts/Linux%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4.html"/>
     <id>https://www.sanliang.xyz/posts/Linux%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4.html</id>
