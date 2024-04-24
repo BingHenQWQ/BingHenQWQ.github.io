@@ -54,6 +54,31 @@
     
     
     <entry>
+      <title>正则表达式</title>
+      <link href="/posts/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html"/>
+      <url>/posts/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html</url>
+      
+        <content type="html"><![CDATA[<h1>一、基本正则表达式</h1><blockquote><p>关于正则表达式的内容挺多的，掌握好下文中提及的内容就能满足正常工作中的需要，如果是专门做正则编程的，可以去买本正则表达式的书籍来看好了^_^。只有多动手多练习，才是学开发编程的最好姿势。</p></blockquote><h2 id="1-符号">1. 符号&quot;.&quot;</h2><blockquote><p>匹配任意一个字符，除了换行符，但是需要注意的是，在sed中不能匹配换行符，但是在awk中可以匹配换行符。类似shell通配符中的&quot;?&quot;，匹配一个任意字符。</p></blockquote><h2 id="2-符号">2. 符号&quot;*&quot;</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;*&quot;</span>表示前边字符有<span class="number">0</span>个或多个。<span class="string">&quot;.*&quot;</span>表示任意一个字符有<span class="number">0</span>个或多个，也就是能匹配任意的字符。类似<span class="keyword">shell</span>通配符中的<span class="string">&quot;*&quot;</span>，可以匹配任意字符。</span><br></pre></td></tr></table></figure><h2 id="3-符号">3. 符号&quot;[]&quot;</h2><blockquote><p>&quot;[ ]&quot;中括号中可以包含表示字符集的表达式。使用方法大概有如下几种。<br>[a-z]：表示a-z字符中的一个，也就是小写字母。<br>[0-9]：表示0-9字符中的一个，也就是表示数字。<br>[A-Z]：表示大写字母。<br>[a-zA-Z]：表示字符集为小写字母或者大写字母。<br>[a-zA-Z0-9]：表示普通字符，包括大小写字母和数字。<br>[abc]：表示字符a或者字符b或者字符c。<br>[^0-9]：表示非数字类型的字符，^表示取反意思，只能放在中括号的开始处才有意义。<br>[-cz]：表示字符-或者字符c或者字符z，注意与[c-z]的区别，因为-符号没有放在e和f之间。</p></blockquote><h2 id="4-符号">4. 符号&quot;^&quot;</h2><blockquote><p>&quot;^“表示行首的意思，也就是每一行的开始位置。在这里并不是上边字符范围中取反的意思，^符号只有在”[]&quot;符号的开头处才能表示字符取反。<br>^abc：表示以abc开头的字符串abc。<br>^abc.*：表示以abc开头的字符串abcxxx。</p></blockquote><h2 id="5-符号">5. 符号&quot;$&quot;</h2><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;<span class="variable">$</span>&quot;</span>表示行尾的意思，也就是每一行的结尾位置，很好理解，和<span class="string">&quot;^&quot;</span>正好相反。</span><br><span class="line">world<span class="variable">$</span>：表示以world结尾的字符串world，如果该行中间有world字符串是不符合匹配条件的。</span><br><span class="line">^<span class="variable">$</span>：表示空行。行首和行尾没有内容，可不就是空行嘛。</span><br></pre></td></tr></table></figure><h2 id="6-符号">6. 符号&quot;&quot;</h2><blockquote><p>““表示是转义字符，和其它语言中用到的转义字符意义基本上是一样的。其实简单理解，就是把元字符转义为普通字符，比如”\“表示普通符号””，把普通字符转换为特殊意义符号，比如&quot;\n&quot;表示把普通字符n转义为换行符。</p></blockquote><h2 id="7-符号">7. 符号&quot;{}&quot;</h2><blockquote><p>“{}“表示前边字符的数量范围，大概有三种用法，其实容易理解，看例子就知道了，但是必须注意要加上转义字符””，否则不生效，表示为普通字符&quot;{“或”}&quot;。</p></blockquote><blockquote><p>{2}：表示前边字符的重复次数是2。<br>{2,}：表示前边字符的重复次数至少是2，也就是大于等于2。<br>{2,9}：表示前边字符的重复次数大于2但小于9。</p></blockquote><h2 id="8-符号-“和”">8. 符号&quot;&lt;“和”&gt;&quot;</h2><blockquote><p>&quot;&lt;&quot;表示匹配条件为词首的位置，理解上可以对比 “^” 行首。<br>举个例子，&quot;nihao 1hello 2hello3 hello4&quot;有这么内容的一行内容。<br>“&lt; hello&quot;匹配结果&quot;nihao 1hello 2hello3 hello4”；<br>&quot;hello&gt;“匹配结果&quot;nihao 1hello 2hello3 hello4”，这种匹配方式用的不是太多，用到会用就OK。</p></blockquote><h1>二、扩展正则表达式</h1><blockquote><p>扩展正则表达式是在基本正则表达式中扩展出来的，内容不是很多，使用频率上可能没有基本正则表达式那么高，但是扩展正则依然很重要，很多情况下没有扩展正则是搞不定的。sed命令使用扩展正则需要加上选项-r。</p></blockquote><h2 id="1-符号-2">1. 符号&quot;?&quot;</h2><blockquote><p>“?”：表示前置字符有0个或1个。</p></blockquote><h2 id="2-符号-2">2. 符号&quot;+&quot;</h2><blockquote><p>“+”：表示前置字符有1个或多个。</p></blockquote><h2 id="3-符号-2">3. 符号&quot;|&quot;</h2><blockquote><p>“|”：表示指明两项之间的一个选择。<br>abc|ABC：表示可以匹配abc或者ABC。</p></blockquote><h2 id="4-符号-2">4. 符号&quot;()&quot;</h2><blockquote><p>&quot;()“表示分组，类似算数表达式中的()。子命令表达式中可以通过\1，\2，\3等来表示分组匹配到的内容。其实”()&quot;也可以在基本正则表达式中使用的。</p></blockquote><blockquote><p>(a|b)b：表示可以匹配ab或者bb字串<br>([0-9])|([0][0-9])|([1][0-9])：表示匹配0-9或者00-09或者10-19范围的字符。</p></blockquote><h2 id="5-符号-2">5. 符号&quot;{}&quot;</h2><blockquote><p>这里的&quot;{}“和基本正则表达式中的大括号意义是一样的，只不过在使用时不用加”&quot;转义符号。</p></blockquote><h1>三、正则表达式的分类和应用</h1><blockquote><p>字符类<br>[Ww]hat  .H[12345]</p></blockquote><blockquote><p>字符的范围<br>[a-z] [0-9] [Cc]hapter[1-9] [-+*/] [0-1][0-9][-/][0-3][0-9][-/][0-9][0-9]</p></blockquote><blockquote><p>排除字符类<br>[^0-9]</p></blockquote><blockquote><p>重复出现的字符<br>[15]0*  [15]00</p></blockquote><blockquote><p>字符的跨度<br>*与{n,m}</p></blockquote><blockquote><p>电话号码的匹配<br>[0-9]{3}-[0-9]{7,8}</p></blockquote><blockquote><p>分组操作<br>compan(y|ies)</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>逆水寒结义日常--八哥专区</title>
       <link href="/posts/%E5%85%AB%E5%93%A5%E4%B8%93%E5%8C%BA.html"/>
       <url>/posts/%E5%85%AB%E5%93%A5%E4%B8%93%E5%8C%BA.html</url>
@@ -73,37 +98,6 @@
             <tag> NSH </tag>
             
             <tag> 逆水寒 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>光遇测试服小窝群聊列表</title>
-      <link href="/posts/%E5%85%89%E9%81%87%E6%B5%8B%E8%AF%95%E6%9C%8D%E5%B0%8F%E7%AA%9D%E7%BE%A4%E8%81%8A%E5%88%97%E8%A1%A8.html"/>
-      <url>/posts/%E5%85%89%E9%81%87%E6%B5%8B%E8%AF%95%E6%9C%8D%E5%B0%8F%E7%AA%9D%E7%BE%A4%E8%81%8A%E5%88%97%E8%A1%A8.html</url>
-      
-        <content type="html"><![CDATA[<h1>以下是光遇测试服小窝群聊列表，点击即可加入</h1><blockquote><p>光遇测试服小窝交流群加入直链：</p></blockquote><p>如果群满请换个群加入</p><a class="btn-beautify " href="https://jq.qq.com/?_wv=1027&k=mKs3orzw"   title="光遇测试服小窝1群"><i class="icon icon-QQ"></i><span>光遇测试服小窝1群</span></a><a class="btn-beautify " href="https://jq.qq.com/?_wv=1027&k=Ai8NGJnv"   title="光遇测试服小窝2群"><i class="icon icon-QQ"></i><span>光遇测试服小窝2群</span></a><a class="btn-beautify " href="https://jq.qq.com/?_wv=1027&k=XQ2RxlLN"   title="光遇测试服小窝3群"><i class="icon icon-QQ"></i><span>光遇测试服小窝3群</span></a><p><img src="https://picbed.sanliang.shop/img/xiaowo/1.jpg" alt=""></p><hr>]]></content>
-      
-      
-      <categories>
-          
-          <category> 光遇测试服小窝 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> SKY </tag>
-            
-            <tag> SKY Beta </tag>
-            
-            <tag> 光遇 </tag>
-            
-            <tag> 光遇测试服 </tag>
             
         </tags>
       
