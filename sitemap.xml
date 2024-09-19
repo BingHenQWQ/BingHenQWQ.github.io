@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.sanliang.xyz/posts/Html5%E5%9F%BA%E7%A1%80.html</loc>
+    <loc>https://www.sanliang.xyz/posts/%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F.html</loc>
+    
+    <lastmod>2024-04-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sanliang.xyz/posts/Linux%E6%8B%93%E5%B1%95-Ansible.html</loc>
     
     <lastmod>2024-04-09</lastmod>
     
@@ -12,6 +21,15 @@
   
   <url>
     <loc>https://www.sanliang.xyz/posts/Linux%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4.html</loc>
+    
+    <lastmod>2024-04-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sanliang.xyz/posts/Html5%E5%9F%BA%E7%A1%80.html</loc>
     
     <lastmod>2024-04-09</lastmod>
     
@@ -220,36 +238,36 @@
 
   <url>
     <loc>https://www.sanliang.xyz/</loc>
-    <lastmod>2024-06-03</lastmod>
+    <lastmod>2024-09-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://www.sanliang.xyz/tags/Html5/</loc>
-    <lastmod>2024-06-03</lastmod>
+    <loc>https://www.sanliang.xyz/tags/Linux/</loc>
+    <lastmod>2024-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/tags/Linux/</loc>
-    <lastmod>2024-06-03</lastmod>
+    <loc>https://www.sanliang.xyz/tags/Html5/</loc>
+    <lastmod>2024-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.sanliang.xyz/tags/NSH/</loc>
-    <lastmod>2024-06-03</lastmod>
+    <lastmod>2024-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.sanliang.xyz/tags/%E9%80%86%E6%B0%B4%E5%AF%92/</loc>
-    <lastmod>2024-06-03</lastmod>
+    <lastmod>2024-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -258,14 +276,14 @@
   
   <url>
     <loc>https://www.sanliang.xyz/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/</loc>
-    <lastmod>2024-06-03</lastmod>
+    <lastmod>2024-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.sanliang.xyz/categories/%E9%80%86%E6%B0%B4%E5%AF%92%E7%BB%93%E4%B9%89/</loc>
-    <lastmod>2024-06-03</lastmod>
+    <lastmod>2024-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
