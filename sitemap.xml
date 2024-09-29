@@ -2,7 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.sanliang.xyz/posts/%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F.html</loc>
+    <loc>https://www.sanliang.store/box/gallery/MC.html</loc>
+    
+    <lastmod>2024-09-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sanliang.store/box/gallery/nsh.html</loc>
+    
+    <lastmod>2024-09-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sanliang.store/box/gallery/jieyiSKY.html</loc>
+    
+    <lastmod>2024-09-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sanliang.store/box/gallery/index.html</loc>
+    
+    <lastmod>2024-09-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sanliang.store/posts/%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F.html</loc>
     
     <lastmod>2024-04-10</lastmod>
     
@@ -11,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/posts/Linux%E6%8B%93%E5%B1%95-Ansible.html</loc>
+    <loc>https://www.sanliang.store/posts/Linux%E6%8B%93%E5%B1%95-Ansible.html</loc>
     
     <lastmod>2024-04-09</lastmod>
     
@@ -20,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/posts/Linux%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4.html</loc>
+    <loc>https://www.sanliang.store/posts/Linux%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4.html</loc>
     
     <lastmod>2024-04-09</lastmod>
     
@@ -29,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/posts/Html5%E5%9F%BA%E7%A1%80.html</loc>
+    <loc>https://www.sanliang.store/posts/Html5%E5%9F%BA%E7%A1%80.html</loc>
     
     <lastmod>2024-04-09</lastmod>
     
@@ -38,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/posts/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html</loc>
+    <loc>https://www.sanliang.store/posts/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html</loc>
     
     <lastmod>2024-04-09</lastmod>
     
@@ -47,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/personal/about/index.html</loc>
+    <loc>https://www.sanliang.store/personal/about/index.html</loc>
     
     <lastmod>2024-03-01</lastmod>
     
@@ -56,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/site/time/index.html</loc>
+    <loc>https://www.sanliang.store/site/time/index.html</loc>
     
     <lastmod>2024-03-01</lastmod>
     
@@ -65,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/personal/yh/yihan.html</loc>
+    <loc>https://www.sanliang.store/personal/yh/yihan.html</loc>
     
     <lastmod>2024-01-19</lastmod>
     
@@ -74,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/personal/yh/index.html</loc>
+    <loc>https://www.sanliang.store/personal/yh/index.html</loc>
     
     <lastmod>2024-01-19</lastmod>
     
@@ -83,25 +119,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/box/gallery/jieyiSKY.html</loc>
-    
-    <lastmod>2023-11-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sanliang.xyz/box/gallery/index.html</loc>
-    
-    <lastmod>2023-11-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sanliang.xyz/box/animation/index.html</loc>
+    <loc>https://www.sanliang.store/box/animation/index.html</loc>
     
     <lastmod>2023-11-24</lastmod>
     
@@ -110,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/posts/%E5%85%AB%E5%93%A5%E4%B8%93%E5%8C%BA.html</loc>
+    <loc>https://www.sanliang.store/posts/%E5%85%AB%E5%93%A5%E4%B8%93%E5%8C%BA.html</loc>
     
     <lastmod>2023-11-24</lastmod>
     
@@ -119,25 +137,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/box/gallery/nsh.html</loc>
-    
-    <lastmod>2023-11-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sanliang.xyz/box/gallery/MC.html</loc>
-    
-    <lastmod>2023-11-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sanliang.xyz/categories/index.html</loc>
+    <loc>https://www.sanliang.store/categories/index.html</loc>
     
     <lastmod>2023-04-06</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/site/census/index.html</loc>
+    <loc>https://www.sanliang.store/site/census/index.html</loc>
     
     <lastmod>2023-04-03</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/tags/index.html</loc>
+    <loc>https://www.sanliang.store/tags/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/box/nav/index.html</loc>
+    <loc>https://www.sanliang.store/box/nav/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/life/games/index.html</loc>
+    <loc>https://www.sanliang.store/life/games/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/life/movies/index.html</loc>
+    <loc>https://www.sanliang.store/life/movies/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/life/music/index.html</loc>
+    <loc>https://www.sanliang.store/life/music/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -200,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/personal/bb/index.html</loc>
+    <loc>https://www.sanliang.store/personal/bb/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/social/fcircle/index.html</loc>
+    <loc>https://www.sanliang.store/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/social/link/index.html</loc>
+    <loc>https://www.sanliang.store/social/link/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -227,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/site/echarts/index.html</loc>
+    <loc>https://www.sanliang.store/site/echarts/index.html</loc>
     
     <lastmod>2022-09-10</lastmod>
     
@@ -237,37 +237,37 @@
   
 
   <url>
-    <loc>https://www.sanliang.xyz/</loc>
-    <lastmod>2024-09-19</lastmod>
+    <loc>https://www.sanliang.store/</loc>
+    <lastmod>2024-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://www.sanliang.xyz/tags/Linux/</loc>
-    <lastmod>2024-09-19</lastmod>
+    <loc>https://www.sanliang.store/tags/Linux/</loc>
+    <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/tags/Html5/</loc>
-    <lastmod>2024-09-19</lastmod>
+    <loc>https://www.sanliang.store/tags/Html5/</loc>
+    <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/tags/NSH/</loc>
-    <lastmod>2024-09-19</lastmod>
+    <loc>https://www.sanliang.store/tags/NSH/</loc>
+    <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/tags/%E9%80%86%E6%B0%B4%E5%AF%92/</loc>
-    <lastmod>2024-09-19</lastmod>
+    <loc>https://www.sanliang.store/tags/%E9%80%86%E6%B0%B4%E5%AF%92/</loc>
+    <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -275,15 +275,15 @@
 
   
   <url>
-    <loc>https://www.sanliang.xyz/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/</loc>
-    <lastmod>2024-09-19</lastmod>
+    <loc>https://www.sanliang.store/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/</loc>
+    <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.sanliang.xyz/categories/%E9%80%86%E6%B0%B4%E5%AF%92%E7%BB%93%E4%B9%89/</loc>
-    <lastmod>2024-09-19</lastmod>
+    <loc>https://www.sanliang.store/categories/%E9%80%86%E6%B0%B4%E5%AF%92%E7%BB%93%E4%B9%89/</loc>
+    <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
