@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.sanliang.store/personal/yh/index.html</loc>
+    
+    <lastmod>2024-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.sanliang.store/box/gallery/MC.html</loc>
     
     <lastmod>2024-09-29</lastmod>
@@ -110,15 +119,6 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.store/personal/yh/index.html</loc>
-    
-    <lastmod>2024-01-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.sanliang.store/box/animation/index.html</loc>
     
     <lastmod>2023-11-24</lastmod>
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.store/life/music/index.html</loc>
+    <loc>https://www.sanliang.store/personal/bb/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.store/social/fcircle/index.html</loc>
+    <loc>https://www.sanliang.store/life/music/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://www.sanliang.store/personal/bb/index.html</loc>
+    <loc>https://www.sanliang.store/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
